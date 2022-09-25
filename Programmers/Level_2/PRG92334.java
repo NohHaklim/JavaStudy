@@ -1,3 +1,5 @@
+package Level_2;
+
 /*
  * 		@ 신고 결과 받기
  *		@ https://school.programmers.co.kr/learn/courses/30/lessons/92334
@@ -6,7 +8,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
-class Solution {
+class PRG92334 {
 	public int[] solution(String[] id_list, String[] report, int k) {
 		int[] answer = new int[id_list.length];
 

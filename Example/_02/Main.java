@@ -1,7 +1,11 @@
-package _2;
+package _02;
 
 import java.util.Scanner;
 
+/*
+ * 		@ 피보나치 수열을 출력하시오.
+ * 
+ */
 public class Main {
 
 	public static void main(String[] args) {

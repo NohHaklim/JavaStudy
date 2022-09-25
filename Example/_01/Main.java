@@ -1,8 +1,12 @@
-package _1;
+package _01;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 
+/*
+ * 		@ 학생의 이름을 찾아 학번을 출력하시오.
+ * 
+ */
 public class Main {
 	public static void main(String[] args) {
 		Student stu1 = new Student("학생1", "1");
