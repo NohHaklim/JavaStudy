@@ -12,7 +12,7 @@ public class PRG42579 {
 	public int[] solution(String[] genres, int[] plays) {
         
 		int[] answer = {};
-//		장르 -> (노래 번호, 조회수) 리스트
+//		장르 -> (노래 번호, 조회수) 노래 정보 리스트
 		HashMap<String, ArrayList<MusicInfo>> map = new HashMap<>();
 //		장르 -> 총 조회수
 		HashMap<String, Integer> viewsMap = new HashMap<>();
