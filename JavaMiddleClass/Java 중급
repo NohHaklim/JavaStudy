@@ -15,15 +15,26 @@ programmers의 자바 중급 강의 학습
 		- 문자열의 덧셈에서는 StringBuffer가 생성된 후, 메소드 체이닝으로 합쳐진다.
 		- 따라서 빈번하게 String을 합 연산하면 느려질 수 있다.
 		- 불변이기에 substring() 함수를 이용하거나 StringBuilder 객체로 만든 후, setCharAt으로 수정 가능 / toCharArray(), valueOf
+		
 	- StringBuffer: 가변 클래스
 		- append 뒤에 문자열 붙이기. this 반환
 		- 메소드 체이닝: 자기 자신을 리턴하여 계속해서 자신의 메소드 호출할 수 있게 만드는 문법
+		
 	- Math
 		- static으로 정의된 메서드들을 포함하며 객체 없이 함수 사용 가능
 		- max, min, abs, random(0~1), sqrt
 
 3. java.util 패키지
-	- Date: 지역화 시간 지원X / Calendar: 지역화 시간 지원O / Collection ...  
+	- Date: 지역화 시간 지원X
+		- Date는 Deprecated 메소드나 생성자가 많음. 언제 지워질지 몰라서 사용X
+		
+	- Calendar: 지역화 시간 지원O
+		- 추상클래스이기 때문에 getInstance로 가져옴.
+		- 상수값들을 이용. MONTH는 1 추가해줘야 함
+	
+	- Date, Time Api
+		-Java SE 8부터 새롭게 디자인. 더 직관적
+	
 	- Collection: 자료구조 클래스로 '컬렉션 프레임워크'라고 한다.
 		- Collection interface: iterator(hasNext, next) 의존
 			- add, iterator, size
@@ -37,7 +48,21 @@ programmers의 자바 중급 강의 학습
 			- Map: Set 의존하는 interface
 				- get, keySet, put
 				- {key, value} 쌍 저장
+				
 	- Generic
 		- 클래스에 사용될 자료형에 가상의 자료형 사용 가능. C++의 템플릿
 		- ~~~<E>처럼 사용 
 	
+4. IO
+	- Input Data -> Program -> Output Data
+	- 데코레이터 패턴
+		- 하나의 클래스를 장식하는 것처럼 생성자에서 감싸서 새로운 기능을 계속 추가할 수 있도록 클래스를 만드는 방식
+	- IO Interface
+		- Byte
+			- InputStream
+			- OutputStream
+		- Char
+			- Reader
+			- Writer
+	- 컴퓨터는 1byte를 읽으라고 해도 512byte를 읽는다. 이후 나머지는 버린다.
+	- 따라서 512byte 배수로 버퍼를 잡는 것이 성능 상 좋다.
