@@ -1,5 +1,11 @@
 package Level_2;
 
+/*
+ * 		@ 최솟값 만들기
+ *		@ https://school.programmers.co.kr/learn/courses/30/lessons/12941
+ *		@ 
+ */
+
 public class PRG70129 {
 	public int[] solution(String s) {
 		int[] answer = new int[2];
