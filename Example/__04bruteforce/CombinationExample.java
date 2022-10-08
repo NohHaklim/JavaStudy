@@ -1,6 +1,6 @@
 package __04bruteforce;
 
-//			조합 Combination
+//			조합 Combination.
 //			선택 순서가 결과에 영향을 주지 않는 경우.
 //			ex) 두 수의 합이 가장 큰 경우를 구하라.
 

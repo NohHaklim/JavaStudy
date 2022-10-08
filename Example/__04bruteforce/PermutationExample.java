@@ -1,6 +1,6 @@
 package __04bruteforce;
 
-//			순열 Permutation
+//			순열 Permutation.
 //			선택 순서가 결과에 영향을 미치는 경우.
 //			ex) 만들 수 있는 가장 큰 두 자리 수를 구하라.
 
