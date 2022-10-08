@@ -8,6 +8,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
 
+/*
+ * 		@ 베스트앨범
+ *		@ https://school.programmers.co.kr/learn/courses/30/lessons/42579
+ */
+
 public class PRG42579 {
 	public int[] solution(String[] genres, int[] plays) {
         
