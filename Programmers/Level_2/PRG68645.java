@@ -12,7 +12,7 @@ public class PRG68645 {
 	static int[][] Arr;
 	static int r, c, dir, value;
 	
-	public static int[] solution(int n) {
+	public int[] solution(int n) {
         
         Arr = new int[n][];
         for (int i = 0; i < n; i++)
