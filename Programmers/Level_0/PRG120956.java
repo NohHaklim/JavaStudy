@@ -42,3 +42,34 @@ public class PRG120956 {
         return answer;
     }
 }
+
+/*
+class Solution {
+    public int solution(String[] babbling) {
+        int answer = 0;
+        for (String s : babbling) {
+            if (s.contains("ayaaya") || s.contains("yeye") || s.contains("woowoo") || s.contains("mama")) {
+                continue;
+            }
+            String result = s.replaceAll("aya", "").replaceAll("ye", "").replaceAll("woo", "").replaceAll("ma", "");
+
+            if (result.length() == 0) {
+                answer ++;
+            }
+        }
+        return answer;
+    }
+}
+
+class Solution {
+    public int solution(String[] babbling) {
+        int answer = 0;
+        for(int i=0; i<babbling.length; i++){
+            if(babbling[i].matches("^(aya(?!aya)|ye(?!ye)|woo(?!woo)|ma(?!ma))+$")){
+                answer++;
+            }
+        }
+        return answer;
+    }
+}
+*/
