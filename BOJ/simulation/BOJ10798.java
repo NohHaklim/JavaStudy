@@ -4,7 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class boj10798 {
+/*
+ * 		@ 세로읽기
+ *		@ https://www.acmicpc.net/problem/10798
+ */
+
+public class BOJ10798 {
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
