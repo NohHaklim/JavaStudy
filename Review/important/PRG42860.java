@@ -1,4 +1,4 @@
-package Level_2;
+package important;
 
 /*
  * 		@ 최솟값 만들기
