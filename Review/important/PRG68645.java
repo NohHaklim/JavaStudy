@@ -1,4 +1,4 @@
-package Level_2;
+package important;
 
 /*
  * 		@ 삼각 달팽이
