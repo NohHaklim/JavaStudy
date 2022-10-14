@@ -1,4 +1,4 @@
-package Level_1;
+package important;
 
 /*
  * 		@ 신규 아이디 추천
