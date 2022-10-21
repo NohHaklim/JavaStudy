@@ -34,7 +34,7 @@ public class BOJ15732 {
 		}
 		
 		int lo = 1, hi = n;
-		while (lo < hi) {
+		while (lo <= hi) {
 			int mid = (lo + hi) / 2;
 			long cnt = 0;
 			for (int i = 0; i < box.size(); i++) {
