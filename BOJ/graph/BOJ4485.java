@@ -67,7 +67,7 @@ public class BOJ4485 {
 					dijk[i][j] = Integer.MAX_VALUE;
 				}
 			}
-			System.out.println(new StringBuilder("Problem ").append(nb + 1).append(": ").append(dfs(new Point(0, 0, map[0][0]))).append("\n").toString());
+			System.out.print(new StringBuilder("Problem ").append(nb + 1).append(": ").append(dfs(new Point(0, 0, map[0][0]))).append("\n").toString());
 			nb++;
 		}
 	}
