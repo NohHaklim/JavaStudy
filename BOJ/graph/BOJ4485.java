@@ -7,8 +7,8 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /*
- * 		@ 녹색 옷 입은 애가 젤다지?
- *		@ https://www.acmicpc.net/problem/4485
+ * 		@ 서강그라운드
+ *		@ https://www.acmicpc.net/problem/14938
  *		@
  */
 
@@ -26,7 +26,7 @@ public class BOJ4485 {
 		return false;
 	}
 	
-	static int dfs(Point p) {
+	static int dijk(Point p) {
 		PriorityQueue<Point> pq = new PriorityQueue<>();
 		dijk[0][0] = map[0][0];
 		pq.offer(new Point(0, 0, map[0][0]));
@@ -67,7 +67,7 @@ public class BOJ4485 {
 					dijk[i][j] = Integer.MAX_VALUE;
 				}
 			}
-			System.out.print(new StringBuilder("Problem ").append(nb + 1).append(": ").append(dfs(new Point(0, 0, map[0][0]))).append("\n").toString());
+			System.out.print(new StringBuilder("Problem ").append(nb + 1).append(": ").append(dijk(new Point(0, 0, map[0][0]))).append("\n").toString());
 			nb++;
 		}
 	}
