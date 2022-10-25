@@ -7,8 +7,8 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /*
- * 		@ 서강그라운드
- *		@ https://www.acmicpc.net/problem/14938
+ * 		@ 녹색 옷 입은 애가 젤다지?
+ *		@ https://www.acmicpc.net/problem/4485
  *		@
  */
 
